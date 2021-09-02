@@ -1,8 +1,8 @@
 const express = require("express");
 const morgan = require("morgan");
 const path = require('path');
-const viewRouter = require("./Routes/viewRoutes");
-const stockRouter = require("./Routes/stockRoutes");
+const viewRouter = require("./routes/viewRoutes");
+const stockRouter = require("./routes/stockRoutes");
 const app = express();
 
 app.set("view engine", "pug");
