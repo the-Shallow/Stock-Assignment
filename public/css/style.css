@@ -103,8 +103,8 @@ body {
 
 table {
   border: 0;
+  width: 100%;
   /* background-color: #2f3241; */
-  box-sizing: border-box;
   border-collapse: separate;
   border-spacing: 0 1em;
       -webkit-border-horizontal-spacing: 0px;
@@ -131,7 +131,6 @@ tbody tr{
   display: table-row;
   vertical-align: middle;
   background-color: #2f3241;
-  border-radius: 5px 5px 5px 5px;
 }
 
 .rounded {
